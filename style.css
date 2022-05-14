@@ -5,6 +5,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 body{
+    background-color: #edddd4;
+    background-image : url(./images/sasuke\ eyes.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +27,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
 }
 
 .card:hover{
@@ -74,7 +79,7 @@ transition-delay: 0.5s;
 
 .card:hover .circle .logo {
  transform: scale(0);   
- transition-delay: 0s;
+ transition-delay: 0.5s;
 }
 
 .content{
